@@ -1,2 +1,2 @@
 # Epicode-Project
-Epicode Project Pre-Corso Challenge
+Epicode Progetti Pre-Corso Challenge
