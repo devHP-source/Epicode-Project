@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form | devByPau </title>
+    <link rel="icon" href="img/devByPau-favicon.jpg" type="image/png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<!--TODO:
+* nome (con un type="text")
+* cognome (con un type="text")
+* indirizzo email (con un type="email")
+* password (con un type="password")
+* data di nascita (con un type="date")
+* numero di telefono (con un type="number")
+* qualche checkbox per selezionare i propri gusti musicali (ciascuna con un type="checkbox")
+* accettazione dei termini e condizioni (con un type="radio")
+* bottone type="submit" con la scritta “Invia registrazione” che una volta cliccato faccia apparire un popup con la scritta “Registrazione inviata!”
+-->
+<body>
+    <div class="container">
+        <div class="title">Registrazione Form</div>
+        <form action="#">
+            <div class="user-dettagli">
+                <div class="input-box">
+                    <span class="dettagli">Nome</span>
+                    <input type="text" placeholder="Inserisci il tuo nome" required>
+                </div>
+                <div class="input-box">
+                    <span class="dettagli">Cognome</span>
+                    <input type="text" placeholder="Inserisci il tuo cognome" required>
+                </div>
+                <div class="input-box">
+                    <span class="dettagli">Email</span>
+                    <input type="email" placeholder="Inserisci il tuo indirizzo email" required>
+                </div>
+                <div class="input-box">
+                    <span class="dettagli">Password</span>
+                    <input type="password" placeholder="Inserisci la tua password" required>
+                </div>
+                <div class="input-box">
+                    <span class="dettagli">Data di nascita</span>
+                    <input type="date" placeholder="Inserisci la tua data di nascita" required>
+                </div>
+                <div class="input-box">
+                    <span class="dettagli">Telefono</span>
+                    <input type="number" placeholder="Inserisci il tuo numero di telefono" required>
+                </div>
+                <div class="musica">
+                    <span class="gusti-title">Gusti musicali</span><br>
+                    <p class="gusti-dettagli">Seleziona i tuoi gusti musicali che preferisci:</p>
+                        <input type="checkbox" id="rock" name="rock" value="rock">
+                            <label for="rock">musica Rock</label><br>
+                            <input type="checkbox" id="hiphop" name="hiphop" value="hiphop">
+                            <label for="hiphop">musica Hip Hop</label><br>
+                            <input type="checkbox" id="pop" name="pop" value="pop">
+                            <label for="pop">musica Pop</label><br><br>
+                </div>
+               <!-- <div class="gusti-dettagli">
+                    <input type="radio" name="condizioni">
+                    <span class="tec">Musica che </span>
+                        <div class="categoria">
+                            <label for="rock">
+                                <span class="dot one"></span>
+                                <span class="gusto">Rock</span>
+                            </label>
+                            <label for="hiphop">
+                                <span class="dot one"></span>
+                                <span class="gusto">Hip Hop</span>
+                            </label>
+                            <label for="pop">
+                                <span class="dot one"></span>
+                                <span class="gusto">Pop</span>
+                            </label>
+                    </div>
+                </div> -->
+                <!-- <div class="input-box">
+                    <input type="radio" name="condizioni" value="accettato" required>
+                    <span class="dettagli">Accetto i Termini e condizioni</span>
+                </div> -->
+            </div>
+            <div class="button">
+                <input type="submit" value="Registrati">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
