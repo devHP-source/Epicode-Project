@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/devByPau-favicon.jpg" type="image/png">
+    <title>Youtube - Web Prep</title>
+</head>
+<body>
+    <div class="main">
+        <!-- Header / Navbar -->
+        <header>
+            <nav class="navbar">
+                <div class="nav-section sidebar">
+                    <button class="nav-button menu-button">
+                        <ion-icon name="menu-sharp"></ion-icon>
+                    </button>
+                    <a href="#" class="nav-logo">
+                        <img src="img/yt-logo.svg" alt="Youtube Logo" class="logo-image">
+                        <h2 class="logo-text">YTClone</h2>
+                    </a>
+                </div>
+
+                <div class="nav-section search-wrapper">
+                    <form action="#" class="search-form">
+                        <input type="text" placeholder="Search on Youtube" class="search-input">
+                        <button class="nav-button search-button">
+                            <ion-icon name="search-outline"></ion-icon>
+                        </button>
+                    </form>
+                    <button class="nav-button mic-button">
+                        <ion-icon name="mic-outline"></ion-icon>
+                    </button>
+                </div>
+
+                <div class="nav-section nav-right">
+                    <button class="nav-button theme-button">
+                        <ion-icon name="moon-outline"></ion-icon>
+                    </button>
+                    <img src="img/epicode-logo.png" alt="User Image" class="user-image">
+                </div>
+            </nav>
+        </header>
+
+        <main class="main-layout">
+            <!-- Sidebar -->
+            <aside class="sidebar">
+                <div class="link-container">
+                    <div class="link-section">
+                        <a href="#" class="link-item">
+                            <ion-icon name="home-outline"></ion-icon> Home
+                        </a>
+                        <a href="#" class="link-item">
+                            <ion-icon name="videocam-outline"></ion-icon> Shorts
+                        </a>
+                        <a href="#" class="link-item">
+                            <ion-icon name="tv-outline"></ion-icon> Subscriptions
+                        </a>
+                    </div>
+                    <div class="section-separator"></div>
+                    <!-- -------------------------------------------------------------- -->
+                    <div class="link-section">
+                        <h4 class="section-title">You</h4>
+                        <a href="#" class="link-item">
+                            <ion-icon name="person-circle-outline"></ion-icon> Your Channel
+                        </a>
+                        <a href="#" class="link-item">
+                            <ion-icon name="timer-outline"></ion-icon> History
+                        </a>
+                        <a href="#" class="link-item">
+                            <ion-icon name="time-outline"></ion-icon> Watch Later
+                        </a>
+                    </div>
+                    <div class="section-separator"></div>
+                    <!-- -------------------------------------------------------------- -->
+                    <!-- <div class="link-section">
+                        <h4 class="section-title">You</h4>
+                        <a href="#" class="link-item">
+                            <ion-icon name="person-circle-outline"></ion-icon> Your Channel
+                        </a>
+                        <a href="#" class="link-item">
+                            <ion-icon name="person-circle-outline"></ion-icon> History
+                        </a>
+                        <a href="#" class="link-item">
+                            <ion-icon name="time-outline"></ion-icon> Watch Later
+                        </a>
+                    </div>
+                    <div class="section-separator"></div> -->
+                </div>
+            </aside>
+
+            <div class="content-wrapper">
+                <!-- Category List -->
+                <div class="category-list">
+                    <button class="category-button active">All</button>
+                    <button class="category-button">Epicode</button>
+                    <button class="category-button">Node.js</button>
+                    <button class="category-button">HTML</button>
+                    <button class="category-button">CSS</button>
+                    <button class="category-button">JavaScript</button>
+                    <button class="category-button">PHP</button>
+                    <button class="category-button">Java</button>
+                    <button class="category-button">C++</button>
+                    <button class="category-button">C</button>
+                    <button class="category-button">Swift</button>
+                    <button class="category-button">Python</button>
+                    <button class="category-button">C#</button>
+                    <button class="category-button">React.js</button>
+                    <button class="category-button">Music</button>
+                    <button class="category-button">Rome</button>
+                    <button class="category-button">AI</button>
+                    <button class="category-button">Gaming</button>
+                </div>
+
+                <!-- Video List -->
+                <div class="video-list">
+                    <a href="#" class="video-card"> <!-- first video -->
+                        <div class="thumbnail-container">
+                            <img src="img/epicode_thumb.png" alt="Thumbnail" class="thumbnail">
+                            <p class="duration">11:33</p>
+                        </div>
+                        <div class="video-info">
+                            <img src="img/epicode-logo.png" alt="Channel Logo" class="icon">
+                            <div class="video-details">
+                                <h2 class="title">Epicode Youtube Clone Project Challenge</h2>
+                                <p class="channel-name">Epicode Course</p>
+                                <p class="views">3.9K Views - 1 Month Ago</p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#" class="video-card"> <!-- second video -->
+                        <div class="thumbnail-container">
+                            <img src="img/epicode_thumb.png" alt="Thumbnail" class="thumbnail">
+                            <p class="duration">11:33</p>
+                        </div>
+                        <div class="video-info">
+                            <img src="img/epicode-logo.png" alt="Channel Logo" class="icon">
+                            <div class="video-details">
+                                <h2 class="title">Epicode Youtube Clone Project Challenge</h2>
+                                <p class="channel-name">Epicode Course</p>
+                                <p class="views">3.9K Views - 1 Month Ago</p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#" class="video-card"> <!-- third video -->
+                        <div class="thumbnail-container">
+                            <img src="img/epicode_thumb.png" alt="Thumbnail" class="thumbnail">
+                            <p class="duration">11:33</p>
+                        </div>
+                        <div class="video-info">
+                            <img src="img/epicode-logo.png" alt="Channel Logo" class="icon">
+                            <div class="video-details">
+                                <h2 class="title">Epicode Youtube Clone Project Challenge</h2>
+                                <p class="channel-name">Epicode Course</p>
+                                <p class="views">3.9K Views - 1 Month Ago</p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#" class="video-card"> <!-- fourth video -->
+                        <div class="thumbnail-container">
+                            <img src="img/epicode_thumb.png" alt="Thumbnail" class="thumbnail">
+                            <p class="duration">11:33</p>
+                        </div>
+                        <div class="video-info">
+                            <img src="img/epicode-logo.png" alt="Channel Logo" class="icon">
+                            <div class="video-details">
+                                <h2 class="title">Epicode Youtube Clone Project Challenge</h2>
+                                <p class="channel-name">Epicode Course</p>
+                                <p class="views">3.9K Views - 1 Month Ago</p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#" class="video-card"> <!-- fifth video -->
+                        <div class="thumbnail-container">
+                            <img src="img/epicode_thumb.png" alt="Thumbnail" class="thumbnail">
+                            <p class="duration">11:33</p>
+                        </div>
+                        <div class="video-info">
+                            <img src="img/epicode-logo.png" alt="Channel Logo" class="icon">
+                            <div class="video-details">
+                                <h2 class="title">Epicode Youtube Clone Project Challenge</h2>
+                                <p class="channel-name">Epicode Course</p>
+                                <p class="views">3.9K Views - 1 Month Ago</p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#" class="video-card"> <!-- sixth video -->
+                        <div class="thumbnail-container">
+                            <img src="img/epicode_thumb.png" alt="Thumbnail" class="thumbnail">
+                            <p class="duration">11:33</p>
+                        </div>
+                        <div class="video-info">
+                            <img src="img/epicode-logo.png" alt="Channel Logo" class="icon">
+                            <div class="video-details">
+                                <h2 class="title">Epicode Youtube Clone Project Challenge</h2>
+                                <p class="channel-name">Epicode Course</p>
+                                <p class="views">3.9K Views - 1 Month Ago</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </main>
+    </div>
+
+<script src="script.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
